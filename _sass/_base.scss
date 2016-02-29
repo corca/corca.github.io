@@ -1,6 +1,4 @@
-/**
- * Reset some basic elements
- */
+// Reset some basic elements
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -8,11 +6,7 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
-/**
- * Basic styling
- */
+// Basic styling
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -25,11 +19,7 @@ body {
     font-kerning: normal;
 }
 
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+// Set `margin-bottom` to maintain vertical rhythm
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -37,21 +27,13 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
-/**
- * Images
- */
+// Images
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
-
-
-/**
- * Figures
- */
+// Figures
 figure > img {
     display: block;
 }
@@ -60,11 +42,7 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
-
-/**
- * Lists
- */
+// Lists
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -76,45 +54,28 @@ li {
     }
 }
 
-
-
-/**
- * Headings
- */
+// Headings
 h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font-family;
     font-weight: $base-font-weight;
 }
 
-
-
-/**
- * Links
- */
+// Links
 a {
-    color: $brand-color;
+    color: $body-link-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $hover-link-color;
     }
 }
 
-
-
-/**
- * Blockquotes
- */
+// Blockquotes
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    border-left: 3px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
+    font-size: $base-font-size;
     font-style: italic;
 
     > :last-child {
@@ -122,17 +83,12 @@ blockquote {
     }
 }
 
-
-
-/**
- * Code formatting
- */
+// Code Formatting
 pre,
 code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
 }
 
 code {
@@ -150,14 +106,9 @@ pre {
     }
 }
 
-
-
-/**
- * Wrapper
- */
+// Wrapper
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: $content-width;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -172,11 +123,7 @@ pre {
     }
 }
 
-
-
-/**
- * Clearfix
- */
+// Clearfix
 %clearfix {
 
     &:after {
@@ -186,17 +133,13 @@ pre {
     }
 }
 
-
-
-/**
- * Icons
- */
+// Icons
 .icon {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: $social-icon-size;
+        height: $social-icon-size;
         vertical-align: middle;
 
         path {
