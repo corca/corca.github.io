@@ -1,5 +1,4 @@
-<footer id="footer">
-  <div class="wrapper">
+<footer class="footer wrapper">
     <ul id="social">
       {% if site.twitter_username %}
       <li>
@@ -13,21 +12,18 @@
       {% endif %}
       {% if site.stackoverflow_username %}
       <li>
-        {% include icon-twitter.html username=site.twitter_username %}
+        {% include icon-stackoverflow.html username=site.stackoverflow_username %}
       </li>
       {% endif %}
       {% if site.linkedin_username %}
       <li>
-        {% include icon-twitter.html username=site.twitter_username %}
+        {% include icon-linkedin.html username=site.linkedin_username %}
       </li>
       {% endif %}
-      {% if site.rss_feed %}
       <li>
-        {% include icon-twitter.html username=site.twitter_username %}
+        {% include icon-rss.html %}
       </li>
-      {% endif %}
 		</ul>
-		<div id="copyright">&copy; 2016 Andrew Corcoran. Powered by <a href="https://jekyllrb.com" target="_blank">Jekyll</a>.</div>
-    <div id="copyright">Site generated at {{ site.time }} </div>
-  </div>
+		<div id="copyright">&copy; 2016 Andrew Corcoran</div>
+    <!-- <div id="copyright">Site generated at {{ site.time }} </div> -->
 </footer>

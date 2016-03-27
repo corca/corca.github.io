@@ -12,6 +12,7 @@ $base-line-height: 1.5;
 
 $header-font-family: 'Roboto Slab', Courier, serif;
 $header-font-size: 1em;
+$header-height: 67px;
 
 $spacing-unit:     30px;
 
@@ -42,7 +43,7 @@ $on-laptop:        800px;
 // }
 
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }
