@@ -31,8 +31,7 @@ $social-icon-size: 24px;
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-mobile:        800px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -43,7 +42,7 @@ $on-laptop:        800px;
 // }
 
 @mixin media-query($device) {
-    @media screen and (min-width: $device) {
+    @media screen and (max-width: $device) {
         @content;
     }
 }

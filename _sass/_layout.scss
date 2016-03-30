@@ -24,7 +24,7 @@ ul, ol {
   list-style-position: inside;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, .post-link {
   font-family: 'Roboto Slab', serif;
   color: #1F1F02;
 }
@@ -41,7 +41,7 @@ h3 {
   font-size: 1.6em;
 }
 
-h4 {
+h4, .post-link {
   font-size: 1.4em;
 }
 
@@ -185,12 +185,21 @@ pre {
 }
 
 // Post styling
-.post-header {
+.post-header, .page-heading, .post-list {
   text-align: center;
 }
 
 .post-meta {
   font-family: "Courier", serif;
   font-size: .8em;
+}
+
+@include media-query($on-mobile) {
+  .post-content {
+    p {
+      padding-right: $spacing-unit / 2;
+      padding-left: $spacing-unit / 2;
+    }
+  }
 }
 
