@@ -30,23 +30,34 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 1.8em;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 
 h4 {
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 
 h5, h6 {
-  font-size: 1em;
+  font-size: 1.2em;
+}
+
+a {
+  color: #666;
+  &:active {
+    color: #555;
+  }
+  &:hover {
+    color: #777;
+    transition: .5s ease-out;
+  }
 }
 
 // Wrapper Styling
@@ -160,12 +171,26 @@ pre {
   margin-bottom: $spacing-unit;
 }
 
-.footer {
-  margin-top: $spacing-unit;
-}
-
-.main, #social {
+.main, #social, .footer {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
+}
+
+.post-content {
+  padding-top: $spacing-unit;
+  p, pre {
+    margin-bottom: $spacing-unit;
+  }
+  font-size: 1.1em;
+}
+
+// Post styling
+.post-header {
+  text-align: center;
+}
+
+.post-meta {
+  font-family: "Courier", serif;
+  font-size: .8em;
 }
 

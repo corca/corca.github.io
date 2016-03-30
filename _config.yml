@@ -22,3 +22,5 @@ permalink: /:year/:month/:day/:title
 
 kramdown:
   input: GFM
+excerpt_separator: "<!--more-->"
+exclude: ["jekyll.ajc.la.sublime-project"]
