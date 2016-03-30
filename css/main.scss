@@ -12,7 +12,7 @@ $base-line-height: 1.5;
 
 $header-font-family: 'Roboto Slab', Courier, serif;
 $header-font-size: 1em;
-$header-height: 67px;
+$header-height:    67px;
 
 $spacing-unit:     30px;
 
@@ -31,6 +31,7 @@ $social-icon-size: 24px;
 // Width of the content area
 $content-width:    800px;
 
+// Media query defaults
 $on-mobile:        800px;
 
 // Use media queries like this:
