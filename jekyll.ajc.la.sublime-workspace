@@ -3,11 +3,20 @@
 	{
 		"selected_items":
 		[
+			[
+				"animation",
+				"animation-duration"
+			],
+			[
+				"list-",
+				"list-style-position"
+			],
+			[
+				"text-",
+				"text-decoration"
+			]
 		]
 	},
-	"buffers":
-	[
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -15,17 +24,49 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 249.0,
-		"last_filter": "ssbab",
+		"height": 291.0,
+		"last_filter": "rename",
 		"selected_items":
 		[
 			[
-				"ssbab",
-				"Set Syntax: JavaScript (Babel)"
+				"rename",
+				"File: Rename"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"newfile",
+				"ANF: New File"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssbab",
+				"Set Syntax: JavaScript (Babel)"
 			],
 			[
 				"remove",
@@ -103,24 +144,58 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/corc/Projects/jekyll.ajc.la"
-	],
 	"file_history":
 	[
+		"/Users/corc/Projects/jekyll.ajc.la/about.md",
+		"/Users/corc/Projects/jekyll.ajc.la/code.md",
+		"/Users/corc/Projects/jekyll.ajc.la/search.md",
+		"/Users/corc/Projects/jekyll.ajc.la/sample.md",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/header.html",
+		"/Users/corc/Projects/jekyll.ajc.la/jekyll.ajc.la.sublime-project",
+		"/Users/corc/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/corc/Projects/jekyll.ajc.la/.gitignore",
+		"/Users/corc/Projects/jekyll.ajc.la/index.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_layouts/post.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_layouts/page.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_site/css/main.css",
+		"/Users/corc/Projects/jekyll.ajc.la/posts.md",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/head.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-github.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-linkedin.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-rss.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-stackoverflow.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-twitter.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/svg/icon-github.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/svg/icon-linkedin.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/svg/icon-rss.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/svg/icon-stackoverflow.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/footer.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/svg/icon-twitter.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/svg/icon-twitter.svg",
+		"/Users/corc/Projects/jekyll.ajc.la/_layouts/default.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/svg/icon-github.svg",
+		"/Users/corc/Projects/jekyll.ajc.la/_sass/_layout.scss",
+		"/Users/corc/Projects/jekyll.ajc.la/css/main.scss",
+		"/Users/corc/Projects/jekyll.ajc.la/index2.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_config.yml",
+		"/Users/corc/Projects/jekyll.ajc.la/_sass/_base.scss",
+		"/Users/corc/Projects/jekyll.ajc.la/.archive",
+		"/Users/corc/Projects/jekyll.ajc.la/_codes/2016-02-25-welcome-to-jekyll.md",
+		"/Users/corc/Projects/jekyll.ajc.la/_site/index.html",
+		"/Users/corc/Projects/jekyll.ajc.la/_sass/_layout_old.scss",
+		"/Users/corc/Projects/jekyll.ajc.la/_sass/_syntax-highlighting-monokai.scss",
+		"/Users/corc/Projects/jekyll.ajc.la/_posts/2016-02-25-welcome-to-jekyll.md",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-stackoverflow.svg",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-linkedin.svg",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-rss.svg",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-github.svg",
+		"/Users/corc/Projects/jekyll.ajc.la/_includes/icon-codepen.svg",
+		"/Users/corc/Projects/jekyll.ajc.la/generated_index.html",
 		"/Users/corc/Projects/React-For-Beginners-Starter-Files/12 - Displaying State with JSX/scripts/main.js",
 		"/Users/corc/Library/Application Support/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
 		"/Users/corc/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/corc/.zshrc",
-		"/Users/corc/Projects/jekyll.ajc.la/css/main.scss",
-		"/Users/corc/Projects/jekyll.ajc.la/index.html",
-		"/Users/corc/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/corc/Library/Application Support/Sublime Text 3/Packages/User/Shell-Unix-Generic.sublime-settings",
-		"/Users/corc/Projects/jekyll.ajc.la/search.md",
-		"/Users/corc/Projects/jekyll.ajc.la/about.md",
-		"/Users/corc/Projects/jekyll.ajc.la/posts.md",
-		"/Users/corc/Projects/jekyll.ajc.la/_sass/_layout.scss",
 		"/Users/corc/Projects/jekyll.ajc.la/feed.xml",
 		"/Users/corc/Projects/jekyll.ajc.la/CNAME",
 		"/Users/corc/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
@@ -133,7 +208,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -147,6 +222,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"svg",
+			"_relative",
+			"svg",
+			"include",
+			"spacing-",
+			"twitter",
 			"remember",
 			"true",
 			"auto",
@@ -165,21 +246,13 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"sheets":
-			[
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 25.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 63.0
 	},
 	"layout":
 	{
@@ -190,11 +263,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.480749982285,
 			1.0
 		],
 		"rows":
@@ -209,7 +289,6 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "jekyll.ajc.la.sublime-project",
 	"replace":
 	{
 		"height": 46.0
@@ -242,7 +321,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
