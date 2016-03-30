@@ -12,7 +12,7 @@ If you followed that link, you'll have likely seen that Metalsmith bills itself 
 
 Metalsmith comes in both API and CLI flavors. I opted for the API flavor. This meant creating a build.js file that would be referenced and used by Metalsmith similarily to a gulpfile.js. After npm installing metalsmith, I had to decide which plugins would be needed. After lots of research and tinkering I ultimately decided on the plugins below, installed them as dev dependencies, and required them in my build.js file.
 
-{% highlight javascript %}
+``` javascript
 var Metalsmith    = require('metalsmith'),
     markdown      = require('metalsmith-markdown'),
     htmlMinifier  = require('metalsmith-html-minifier'),
@@ -26,11 +26,11 @@ var Metalsmith    = require('metalsmith'),
     permalinks    = require('metalsmith-permalinks'),
     beautify      = require('metalsmith-beautify'),
     branch        = require('metalsmith-branch');
-{% endhighlight %}
+```
 
 Chaining all of these plugins together to do something useful resulted in the code below.
 
-{% highlight javascript %}
+``` javascript
 Metalsmith(__dirname)
     .metadata({
       site: {
@@ -74,7 +74,7 @@ Metalsmith(__dirname)
         console.log("Build complete");
       }
     });
-{% endhighlight %}
+```
 
 As you may be able to infer from the code above, Metalsmith can be great for highly customizing very simple sites. Unfortunately, the larger the site grows the more difficult it becomes to maintain the Metalsmith build file, not that it can't be done. 
 
