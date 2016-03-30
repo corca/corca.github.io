@@ -3,6 +3,7 @@ layout: post
 title: Jekyll Test Post
 date:   2016-02-26 09:28:01 -0700
 categories: jekyll test metalsmith
+published: false
 ---
 Hi, this is my second blog post.
 

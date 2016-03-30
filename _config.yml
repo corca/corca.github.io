@@ -13,7 +13,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ajc.la" # the base hostname & protocol for your site
 twitter_username: corc
 github_username:  corca
-stackoverflow_username: "users/4107320/corc"
 linkedin_username: "andrewjcorcoran"
 
 # Build settings
